@@ -1,0 +1,20 @@
+{
+  "name": "animal crossing data scout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkkktaci/kkkktaci.github.io.git"
+  },
+  "keywords": [],
+  "author": "kkkktaci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkkktaci/kkkktaci.github.io/issues"
+  },
+  "homepage": "https://github.com/kkkktaci/kkkktaci.github.io#readme"
+}
