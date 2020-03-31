@@ -6,9 +6,9 @@ var client = axios.create({
     baseURL: 'https://wiki.biligame.com/dongsen'
 })
 
-getCatchableList(client, '/博物馆图鉴', 'fish.json')
-getCatchableList(client, '/虫图鉴', 'insect.json')
-getAnimalList(client, '/小动物图鉴', 'animal.json')
+getCatchableList(client, '/博物馆图鉴', 'fish.html')
+getCatchableList(client, '/虫图鉴', 'insect.html')
+getAnimalList(client, '/小动物图鉴', 'animal.html')
 
 async function getCatchableList(client, url, filename) {
     console.log(`>>> Step 1: 准备请求wiki页面 ${url}`)
