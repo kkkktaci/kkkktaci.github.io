@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/kkkktaci/kkkktaci.github.io/issues"
   },
-  "homepage": "https://github.com/kkkktaci/kkkktaci.github.io#readme"
+  "homepage": "https://github.com/kkkktaci/kkkktaci.github.io#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
 }
