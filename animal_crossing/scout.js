@@ -38,7 +38,7 @@ async function getCatchableList(client, url, filename) {
                 var north = element.attribs['data-param3'].split(', ')
                 var south = element.attribs['data-param4'].split(', ')
                 var time = element.attribs['data-param5'].split(', ')
-                var price = parseInt(pending('td').last().text().trim().replace('\n', ''))       
+                var price = pending('td').last().text().trim().replace('\n', '')
 
                 data.push({ image, name, place, extra, north, south, time, price })
             }
